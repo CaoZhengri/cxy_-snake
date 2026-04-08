@@ -1,6 +1,6 @@
 CMakeFiles/snake.dir/src/main.cpp.obj: \
- E:\Classes\Game_making\PBL\snake\src\main.cpp \
- E:/Classes/Game_making/PBL/snake/include/data.h \
+ E:\Classes\Game_making\PBL\snake_PBL\snake\src\main.cpp \
+ E:/Classes/Game_making/PBL/snake_PBL/snake/include/data.h \
  D:/Program\ Files/winlibs-x86_64-posix-seh-gcc-14.2.0-mingw-w64ucrt-12.0.0-r2/mingw64/x86_64-w64-mingw32/include/windows.h \
  D:/Program\ Files/winlibs-x86_64-posix-seh-gcc-14.2.0-mingw-w64ucrt-12.0.0-r2/mingw64/x86_64-w64-mingw32/include/_mingw.h \
  D:/Program\ Files/winlibs-x86_64-posix-seh-gcc-14.2.0-mingw-w64ucrt-12.0.0-r2/mingw64/x86_64-w64-mingw32/include/_mingw_mac.h \
@@ -279,14 +279,6 @@ CMakeFiles/snake.dir/src/main.cpp.obj: \
  D:/Program\ Files/winlibs-x86_64-posix-seh-gcc-14.2.0-mingw-w64ucrt-12.0.0-r2/mingw64/x86_64-w64-mingw32/include/winsvc.h \
  D:/Program\ Files/winlibs-x86_64-posix-seh-gcc-14.2.0-mingw-w64ucrt-12.0.0-r2/mingw64/x86_64-w64-mingw32/include/mcx.h \
  D:/Program\ Files/winlibs-x86_64-posix-seh-gcc-14.2.0-mingw-w64ucrt-12.0.0-r2/mingw64/x86_64-w64-mingw32/include/imm.h \
- D:/Program\ Files/winlibs-x86_64-posix-seh-gcc-14.2.0-mingw-w64ucrt-12.0.0-r2/mingw64/x86_64-w64-mingw32/include/conio.h \
- D:/Program\ Files/winlibs-x86_64-posix-seh-gcc-14.2.0-mingw-w64ucrt-12.0.0-r2/mingw64/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
- D:/Program\ Files/winlibs-x86_64-posix-seh-gcc-14.2.0-mingw-w64ucrt-12.0.0-r2/mingw64/x86_64-w64-mingw32/include/sec_api/conio_s.h \
- D:/Program\ Files/winlibs-x86_64-posix-seh-gcc-14.2.0-mingw-w64ucrt-12.0.0-r2/mingw64/include/c++/14.2.0/cstdio \
- D:/Program\ Files/winlibs-x86_64-posix-seh-gcc-14.2.0-mingw-w64ucrt-12.0.0-r2/mingw64/x86_64-w64-mingw32/include/stdio.h \
- D:/Program\ Files/winlibs-x86_64-posix-seh-gcc-14.2.0-mingw-w64ucrt-12.0.0-r2/mingw64/x86_64-w64-mingw32/include/_mingw_off_t.h \
- D:/Program\ Files/winlibs-x86_64-posix-seh-gcc-14.2.0-mingw-w64ucrt-12.0.0-r2/mingw64/x86_64-w64-mingw32/include/swprintf.inl \
- D:/Program\ Files/winlibs-x86_64-posix-seh-gcc-14.2.0-mingw-w64ucrt-12.0.0-r2/mingw64/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
  D:/Program\ Files/winlibs-x86_64-posix-seh-gcc-14.2.0-mingw-w64ucrt-12.0.0-r2/mingw64/include/c++/14.2.0/ctime \
  D:/Program\ Files/winlibs-x86_64-posix-seh-gcc-14.2.0-mingw-w64ucrt-12.0.0-r2/mingw64/x86_64-w64-mingw32/include/time.h \
  D:/Program\ Files/winlibs-x86_64-posix-seh-gcc-14.2.0-mingw-w64ucrt-12.0.0-r2/mingw64/x86_64-w64-mingw32/include/sys/timeb.h \

@@ -52,10 +52,10 @@ RM = "D:\Program Files\winlibs-x86_64-posix-seh-gcc-14.2.0-mingw-w64ucrt-12.0.0-
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\Classes\Game_making\PBL\snake
+CMAKE_SOURCE_DIR = E:\Classes\Game_making\PBL\snake_PBL\snake
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\Classes\Game_making\PBL\snake\build
+CMAKE_BINARY_DIR = E:\Classes\Game_making\PBL\snake_PBL\snake\build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/snake.dir/depend.make
@@ -68,136 +68,170 @@ include CMakeFiles/snake.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/snake.dir/flags.make
 
-CMakeFiles/snake.dir/src/main.cpp.obj: CMakeFiles/snake.dir/flags.make
-CMakeFiles/snake.dir/src/main.cpp.obj: CMakeFiles/snake.dir/includes_CXX.rsp
-CMakeFiles/snake.dir/src/main.cpp.obj: E:/Classes/Game_making/PBL/snake/src/main.cpp
-CMakeFiles/snake.dir/src/main.cpp.obj: CMakeFiles/snake.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Classes\Game_making\PBL\snake\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/snake.dir/src/main.cpp.obj"
-	"D:\Program Files\winlibs-x86_64-posix-seh-gcc-14.2.0-mingw-w64ucrt-12.0.0-r2\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/snake.dir/src/main.cpp.obj -MF CMakeFiles\snake.dir\src\main.cpp.obj.d -o CMakeFiles\snake.dir\src\main.cpp.obj -c E:\Classes\Game_making\PBL\snake\src\main.cpp
+CMakeFiles/snake.dir/main.cpp.obj: CMakeFiles/snake.dir/flags.make
+CMakeFiles/snake.dir/main.cpp.obj: CMakeFiles/snake.dir/includes_CXX.rsp
+CMakeFiles/snake.dir/main.cpp.obj: E:/Classes/Game_making/PBL/snake_PBL/snake/main.cpp
+CMakeFiles/snake.dir/main.cpp.obj: CMakeFiles/snake.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Classes\Game_making\PBL\snake_PBL\snake\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/snake.dir/main.cpp.obj"
+	"D:\Program Files\winlibs-x86_64-posix-seh-gcc-14.2.0-mingw-w64ucrt-12.0.0-r2\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/snake.dir/main.cpp.obj -MF CMakeFiles\snake.dir\main.cpp.obj.d -o CMakeFiles\snake.dir\main.cpp.obj -c E:\Classes\Game_making\PBL\snake_PBL\snake\main.cpp
 
-CMakeFiles/snake.dir/src/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/snake.dir/src/main.cpp.i"
-	"D:\Program Files\winlibs-x86_64-posix-seh-gcc-14.2.0-mingw-w64ucrt-12.0.0-r2\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Classes\Game_making\PBL\snake\src\main.cpp > CMakeFiles\snake.dir\src\main.cpp.i
+CMakeFiles/snake.dir/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/snake.dir/main.cpp.i"
+	"D:\Program Files\winlibs-x86_64-posix-seh-gcc-14.2.0-mingw-w64ucrt-12.0.0-r2\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Classes\Game_making\PBL\snake_PBL\snake\main.cpp > CMakeFiles\snake.dir\main.cpp.i
 
-CMakeFiles/snake.dir/src/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/snake.dir/src/main.cpp.s"
-	"D:\Program Files\winlibs-x86_64-posix-seh-gcc-14.2.0-mingw-w64ucrt-12.0.0-r2\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Classes\Game_making\PBL\snake\src\main.cpp -o CMakeFiles\snake.dir\src\main.cpp.s
+CMakeFiles/snake.dir/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/snake.dir/main.cpp.s"
+	"D:\Program Files\winlibs-x86_64-posix-seh-gcc-14.2.0-mingw-w64ucrt-12.0.0-r2\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Classes\Game_making\PBL\snake_PBL\snake\main.cpp -o CMakeFiles\snake.dir\main.cpp.s
 
-CMakeFiles/snake.dir/src/initial.cpp.obj: CMakeFiles/snake.dir/flags.make
-CMakeFiles/snake.dir/src/initial.cpp.obj: CMakeFiles/snake.dir/includes_CXX.rsp
-CMakeFiles/snake.dir/src/initial.cpp.obj: E:/Classes/Game_making/PBL/snake/src/initial.cpp
-CMakeFiles/snake.dir/src/initial.cpp.obj: CMakeFiles/snake.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Classes\Game_making\PBL\snake\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/snake.dir/src/initial.cpp.obj"
-	"D:\Program Files\winlibs-x86_64-posix-seh-gcc-14.2.0-mingw-w64ucrt-12.0.0-r2\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/snake.dir/src/initial.cpp.obj -MF CMakeFiles\snake.dir\src\initial.cpp.obj.d -o CMakeFiles\snake.dir\src\initial.cpp.obj -c E:\Classes\Game_making\PBL\snake\src\initial.cpp
+CMakeFiles/snake.dir/core/GameLoop.cpp.obj: CMakeFiles/snake.dir/flags.make
+CMakeFiles/snake.dir/core/GameLoop.cpp.obj: CMakeFiles/snake.dir/includes_CXX.rsp
+CMakeFiles/snake.dir/core/GameLoop.cpp.obj: E:/Classes/Game_making/PBL/snake_PBL/snake/core/GameLoop.cpp
+CMakeFiles/snake.dir/core/GameLoop.cpp.obj: CMakeFiles/snake.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Classes\Game_making\PBL\snake_PBL\snake\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/snake.dir/core/GameLoop.cpp.obj"
+	"D:\Program Files\winlibs-x86_64-posix-seh-gcc-14.2.0-mingw-w64ucrt-12.0.0-r2\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/snake.dir/core/GameLoop.cpp.obj -MF CMakeFiles\snake.dir\core\GameLoop.cpp.obj.d -o CMakeFiles\snake.dir\core\GameLoop.cpp.obj -c E:\Classes\Game_making\PBL\snake_PBL\snake\core\GameLoop.cpp
 
-CMakeFiles/snake.dir/src/initial.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/snake.dir/src/initial.cpp.i"
-	"D:\Program Files\winlibs-x86_64-posix-seh-gcc-14.2.0-mingw-w64ucrt-12.0.0-r2\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Classes\Game_making\PBL\snake\src\initial.cpp > CMakeFiles\snake.dir\src\initial.cpp.i
+CMakeFiles/snake.dir/core/GameLoop.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/snake.dir/core/GameLoop.cpp.i"
+	"D:\Program Files\winlibs-x86_64-posix-seh-gcc-14.2.0-mingw-w64ucrt-12.0.0-r2\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Classes\Game_making\PBL\snake_PBL\snake\core\GameLoop.cpp > CMakeFiles\snake.dir\core\GameLoop.cpp.i
 
-CMakeFiles/snake.dir/src/initial.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/snake.dir/src/initial.cpp.s"
-	"D:\Program Files\winlibs-x86_64-posix-seh-gcc-14.2.0-mingw-w64ucrt-12.0.0-r2\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Classes\Game_making\PBL\snake\src\initial.cpp -o CMakeFiles\snake.dir\src\initial.cpp.s
+CMakeFiles/snake.dir/core/GameLoop.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/snake.dir/core/GameLoop.cpp.s"
+	"D:\Program Files\winlibs-x86_64-posix-seh-gcc-14.2.0-mingw-w64ucrt-12.0.0-r2\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Classes\Game_making\PBL\snake_PBL\snake\core\GameLoop.cpp -o CMakeFiles\snake.dir\core\GameLoop.cpp.s
 
-CMakeFiles/snake.dir/src/draw.cpp.obj: CMakeFiles/snake.dir/flags.make
-CMakeFiles/snake.dir/src/draw.cpp.obj: CMakeFiles/snake.dir/includes_CXX.rsp
-CMakeFiles/snake.dir/src/draw.cpp.obj: E:/Classes/Game_making/PBL/snake/src/draw.cpp
-CMakeFiles/snake.dir/src/draw.cpp.obj: CMakeFiles/snake.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Classes\Game_making\PBL\snake\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/snake.dir/src/draw.cpp.obj"
-	"D:\Program Files\winlibs-x86_64-posix-seh-gcc-14.2.0-mingw-w64ucrt-12.0.0-r2\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/snake.dir/src/draw.cpp.obj -MF CMakeFiles\snake.dir\src\draw.cpp.obj.d -o CMakeFiles\snake.dir\src\draw.cpp.obj -c E:\Classes\Game_making\PBL\snake\src\draw.cpp
+CMakeFiles/snake.dir/core/StateMachine.cpp.obj: CMakeFiles/snake.dir/flags.make
+CMakeFiles/snake.dir/core/StateMachine.cpp.obj: CMakeFiles/snake.dir/includes_CXX.rsp
+CMakeFiles/snake.dir/core/StateMachine.cpp.obj: E:/Classes/Game_making/PBL/snake_PBL/snake/core/StateMachine.cpp
+CMakeFiles/snake.dir/core/StateMachine.cpp.obj: CMakeFiles/snake.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Classes\Game_making\PBL\snake_PBL\snake\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/snake.dir/core/StateMachine.cpp.obj"
+	"D:\Program Files\winlibs-x86_64-posix-seh-gcc-14.2.0-mingw-w64ucrt-12.0.0-r2\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/snake.dir/core/StateMachine.cpp.obj -MF CMakeFiles\snake.dir\core\StateMachine.cpp.obj.d -o CMakeFiles\snake.dir\core\StateMachine.cpp.obj -c E:\Classes\Game_making\PBL\snake_PBL\snake\core\StateMachine.cpp
 
-CMakeFiles/snake.dir/src/draw.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/snake.dir/src/draw.cpp.i"
-	"D:\Program Files\winlibs-x86_64-posix-seh-gcc-14.2.0-mingw-w64ucrt-12.0.0-r2\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Classes\Game_making\PBL\snake\src\draw.cpp > CMakeFiles\snake.dir\src\draw.cpp.i
+CMakeFiles/snake.dir/core/StateMachine.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/snake.dir/core/StateMachine.cpp.i"
+	"D:\Program Files\winlibs-x86_64-posix-seh-gcc-14.2.0-mingw-w64ucrt-12.0.0-r2\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Classes\Game_making\PBL\snake_PBL\snake\core\StateMachine.cpp > CMakeFiles\snake.dir\core\StateMachine.cpp.i
 
-CMakeFiles/snake.dir/src/draw.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/snake.dir/src/draw.cpp.s"
-	"D:\Program Files\winlibs-x86_64-posix-seh-gcc-14.2.0-mingw-w64ucrt-12.0.0-r2\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Classes\Game_making\PBL\snake\src\draw.cpp -o CMakeFiles\snake.dir\src\draw.cpp.s
+CMakeFiles/snake.dir/core/StateMachine.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/snake.dir/core/StateMachine.cpp.s"
+	"D:\Program Files\winlibs-x86_64-posix-seh-gcc-14.2.0-mingw-w64ucrt-12.0.0-r2\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Classes\Game_making\PBL\snake_PBL\snake\core\StateMachine.cpp -o CMakeFiles\snake.dir\core\StateMachine.cpp.s
 
-CMakeFiles/snake.dir/src/draw2.cpp.obj: CMakeFiles/snake.dir/flags.make
-CMakeFiles/snake.dir/src/draw2.cpp.obj: CMakeFiles/snake.dir/includes_CXX.rsp
-CMakeFiles/snake.dir/src/draw2.cpp.obj: E:/Classes/Game_making/PBL/snake/src/draw2.cpp
-CMakeFiles/snake.dir/src/draw2.cpp.obj: CMakeFiles/snake.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Classes\Game_making\PBL\snake\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/snake.dir/src/draw2.cpp.obj"
-	"D:\Program Files\winlibs-x86_64-posix-seh-gcc-14.2.0-mingw-w64ucrt-12.0.0-r2\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/snake.dir/src/draw2.cpp.obj -MF CMakeFiles\snake.dir\src\draw2.cpp.obj.d -o CMakeFiles\snake.dir\src\draw2.cpp.obj -c E:\Classes\Game_making\PBL\snake\src\draw2.cpp
+CMakeFiles/snake.dir/systems/InputSystem.cpp.obj: CMakeFiles/snake.dir/flags.make
+CMakeFiles/snake.dir/systems/InputSystem.cpp.obj: CMakeFiles/snake.dir/includes_CXX.rsp
+CMakeFiles/snake.dir/systems/InputSystem.cpp.obj: E:/Classes/Game_making/PBL/snake_PBL/snake/systems/InputSystem.cpp
+CMakeFiles/snake.dir/systems/InputSystem.cpp.obj: CMakeFiles/snake.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Classes\Game_making\PBL\snake_PBL\snake\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/snake.dir/systems/InputSystem.cpp.obj"
+	"D:\Program Files\winlibs-x86_64-posix-seh-gcc-14.2.0-mingw-w64ucrt-12.0.0-r2\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/snake.dir/systems/InputSystem.cpp.obj -MF CMakeFiles\snake.dir\systems\InputSystem.cpp.obj.d -o CMakeFiles\snake.dir\systems\InputSystem.cpp.obj -c E:\Classes\Game_making\PBL\snake_PBL\snake\systems\InputSystem.cpp
 
-CMakeFiles/snake.dir/src/draw2.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/snake.dir/src/draw2.cpp.i"
-	"D:\Program Files\winlibs-x86_64-posix-seh-gcc-14.2.0-mingw-w64ucrt-12.0.0-r2\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Classes\Game_making\PBL\snake\src\draw2.cpp > CMakeFiles\snake.dir\src\draw2.cpp.i
+CMakeFiles/snake.dir/systems/InputSystem.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/snake.dir/systems/InputSystem.cpp.i"
+	"D:\Program Files\winlibs-x86_64-posix-seh-gcc-14.2.0-mingw-w64ucrt-12.0.0-r2\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Classes\Game_making\PBL\snake_PBL\snake\systems\InputSystem.cpp > CMakeFiles\snake.dir\systems\InputSystem.cpp.i
 
-CMakeFiles/snake.dir/src/draw2.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/snake.dir/src/draw2.cpp.s"
-	"D:\Program Files\winlibs-x86_64-posix-seh-gcc-14.2.0-mingw-w64ucrt-12.0.0-r2\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Classes\Game_making\PBL\snake\src\draw2.cpp -o CMakeFiles\snake.dir\src\draw2.cpp.s
+CMakeFiles/snake.dir/systems/InputSystem.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/snake.dir/systems/InputSystem.cpp.s"
+	"D:\Program Files\winlibs-x86_64-posix-seh-gcc-14.2.0-mingw-w64ucrt-12.0.0-r2\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Classes\Game_making\PBL\snake_PBL\snake\systems\InputSystem.cpp -o CMakeFiles\snake.dir\systems\InputSystem.cpp.s
 
-CMakeFiles/snake.dir/src/input.cpp.obj: CMakeFiles/snake.dir/flags.make
-CMakeFiles/snake.dir/src/input.cpp.obj: CMakeFiles/snake.dir/includes_CXX.rsp
-CMakeFiles/snake.dir/src/input.cpp.obj: E:/Classes/Game_making/PBL/snake/src/input.cpp
-CMakeFiles/snake.dir/src/input.cpp.obj: CMakeFiles/snake.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Classes\Game_making\PBL\snake\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/snake.dir/src/input.cpp.obj"
-	"D:\Program Files\winlibs-x86_64-posix-seh-gcc-14.2.0-mingw-w64ucrt-12.0.0-r2\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/snake.dir/src/input.cpp.obj -MF CMakeFiles\snake.dir\src\input.cpp.obj.d -o CMakeFiles\snake.dir\src\input.cpp.obj -c E:\Classes\Game_making\PBL\snake\src\input.cpp
+CMakeFiles/snake.dir/systems/RenderSystem.cpp.obj: CMakeFiles/snake.dir/flags.make
+CMakeFiles/snake.dir/systems/RenderSystem.cpp.obj: CMakeFiles/snake.dir/includes_CXX.rsp
+CMakeFiles/snake.dir/systems/RenderSystem.cpp.obj: E:/Classes/Game_making/PBL/snake_PBL/snake/systems/RenderSystem.cpp
+CMakeFiles/snake.dir/systems/RenderSystem.cpp.obj: CMakeFiles/snake.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Classes\Game_making\PBL\snake_PBL\snake\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/snake.dir/systems/RenderSystem.cpp.obj"
+	"D:\Program Files\winlibs-x86_64-posix-seh-gcc-14.2.0-mingw-w64ucrt-12.0.0-r2\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/snake.dir/systems/RenderSystem.cpp.obj -MF CMakeFiles\snake.dir\systems\RenderSystem.cpp.obj.d -o CMakeFiles\snake.dir\systems\RenderSystem.cpp.obj -c E:\Classes\Game_making\PBL\snake_PBL\snake\systems\RenderSystem.cpp
 
-CMakeFiles/snake.dir/src/input.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/snake.dir/src/input.cpp.i"
-	"D:\Program Files\winlibs-x86_64-posix-seh-gcc-14.2.0-mingw-w64ucrt-12.0.0-r2\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Classes\Game_making\PBL\snake\src\input.cpp > CMakeFiles\snake.dir\src\input.cpp.i
+CMakeFiles/snake.dir/systems/RenderSystem.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/snake.dir/systems/RenderSystem.cpp.i"
+	"D:\Program Files\winlibs-x86_64-posix-seh-gcc-14.2.0-mingw-w64ucrt-12.0.0-r2\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Classes\Game_making\PBL\snake_PBL\snake\systems\RenderSystem.cpp > CMakeFiles\snake.dir\systems\RenderSystem.cpp.i
 
-CMakeFiles/snake.dir/src/input.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/snake.dir/src/input.cpp.s"
-	"D:\Program Files\winlibs-x86_64-posix-seh-gcc-14.2.0-mingw-w64ucrt-12.0.0-r2\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Classes\Game_making\PBL\snake\src\input.cpp -o CMakeFiles\snake.dir\src\input.cpp.s
+CMakeFiles/snake.dir/systems/RenderSystem.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/snake.dir/systems/RenderSystem.cpp.s"
+	"D:\Program Files\winlibs-x86_64-posix-seh-gcc-14.2.0-mingw-w64ucrt-12.0.0-r2\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Classes\Game_making\PBL\snake_PBL\snake\systems\RenderSystem.cpp -o CMakeFiles\snake.dir\systems\RenderSystem.cpp.s
 
-CMakeFiles/snake.dir/src/logic.cpp.obj: CMakeFiles/snake.dir/flags.make
-CMakeFiles/snake.dir/src/logic.cpp.obj: CMakeFiles/snake.dir/includes_CXX.rsp
-CMakeFiles/snake.dir/src/logic.cpp.obj: E:/Classes/Game_making/PBL/snake/src/logic.cpp
-CMakeFiles/snake.dir/src/logic.cpp.obj: CMakeFiles/snake.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Classes\Game_making\PBL\snake\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/snake.dir/src/logic.cpp.obj"
-	"D:\Program Files\winlibs-x86_64-posix-seh-gcc-14.2.0-mingw-w64ucrt-12.0.0-r2\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/snake.dir/src/logic.cpp.obj -MF CMakeFiles\snake.dir\src\logic.cpp.obj.d -o CMakeFiles\snake.dir\src\logic.cpp.obj -c E:\Classes\Game_making\PBL\snake\src\logic.cpp
+CMakeFiles/snake.dir/systems/TimeSystem.cpp.obj: CMakeFiles/snake.dir/flags.make
+CMakeFiles/snake.dir/systems/TimeSystem.cpp.obj: CMakeFiles/snake.dir/includes_CXX.rsp
+CMakeFiles/snake.dir/systems/TimeSystem.cpp.obj: E:/Classes/Game_making/PBL/snake_PBL/snake/systems/TimeSystem.cpp
+CMakeFiles/snake.dir/systems/TimeSystem.cpp.obj: CMakeFiles/snake.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Classes\Game_making\PBL\snake_PBL\snake\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/snake.dir/systems/TimeSystem.cpp.obj"
+	"D:\Program Files\winlibs-x86_64-posix-seh-gcc-14.2.0-mingw-w64ucrt-12.0.0-r2\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/snake.dir/systems/TimeSystem.cpp.obj -MF CMakeFiles\snake.dir\systems\TimeSystem.cpp.obj.d -o CMakeFiles\snake.dir\systems\TimeSystem.cpp.obj -c E:\Classes\Game_making\PBL\snake_PBL\snake\systems\TimeSystem.cpp
 
-CMakeFiles/snake.dir/src/logic.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/snake.dir/src/logic.cpp.i"
-	"D:\Program Files\winlibs-x86_64-posix-seh-gcc-14.2.0-mingw-w64ucrt-12.0.0-r2\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Classes\Game_making\PBL\snake\src\logic.cpp > CMakeFiles\snake.dir\src\logic.cpp.i
+CMakeFiles/snake.dir/systems/TimeSystem.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/snake.dir/systems/TimeSystem.cpp.i"
+	"D:\Program Files\winlibs-x86_64-posix-seh-gcc-14.2.0-mingw-w64ucrt-12.0.0-r2\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Classes\Game_making\PBL\snake_PBL\snake\systems\TimeSystem.cpp > CMakeFiles\snake.dir\systems\TimeSystem.cpp.i
 
-CMakeFiles/snake.dir/src/logic.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/snake.dir/src/logic.cpp.s"
-	"D:\Program Files\winlibs-x86_64-posix-seh-gcc-14.2.0-mingw-w64ucrt-12.0.0-r2\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Classes\Game_making\PBL\snake\src\logic.cpp -o CMakeFiles\snake.dir\src\logic.cpp.s
+CMakeFiles/snake.dir/systems/TimeSystem.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/snake.dir/systems/TimeSystem.cpp.s"
+	"D:\Program Files\winlibs-x86_64-posix-seh-gcc-14.2.0-mingw-w64ucrt-12.0.0-r2\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Classes\Game_making\PBL\snake_PBL\snake\systems\TimeSystem.cpp -o CMakeFiles\snake.dir\systems\TimeSystem.cpp.s
 
-CMakeFiles/snake.dir/src/save.cpp.obj: CMakeFiles/snake.dir/flags.make
-CMakeFiles/snake.dir/src/save.cpp.obj: CMakeFiles/snake.dir/includes_CXX.rsp
-CMakeFiles/snake.dir/src/save.cpp.obj: E:/Classes/Game_making/PBL/snake/src/save.cpp
-CMakeFiles/snake.dir/src/save.cpp.obj: CMakeFiles/snake.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Classes\Game_making\PBL\snake\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/snake.dir/src/save.cpp.obj"
-	"D:\Program Files\winlibs-x86_64-posix-seh-gcc-14.2.0-mingw-w64ucrt-12.0.0-r2\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/snake.dir/src/save.cpp.obj -MF CMakeFiles\snake.dir\src\save.cpp.obj.d -o CMakeFiles\snake.dir\src\save.cpp.obj -c E:\Classes\Game_making\PBL\snake\src\save.cpp
+CMakeFiles/snake.dir/gameplay/Snake.cpp.obj: CMakeFiles/snake.dir/flags.make
+CMakeFiles/snake.dir/gameplay/Snake.cpp.obj: CMakeFiles/snake.dir/includes_CXX.rsp
+CMakeFiles/snake.dir/gameplay/Snake.cpp.obj: E:/Classes/Game_making/PBL/snake_PBL/snake/gameplay/Snake.cpp
+CMakeFiles/snake.dir/gameplay/Snake.cpp.obj: CMakeFiles/snake.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Classes\Game_making\PBL\snake_PBL\snake\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/snake.dir/gameplay/Snake.cpp.obj"
+	"D:\Program Files\winlibs-x86_64-posix-seh-gcc-14.2.0-mingw-w64ucrt-12.0.0-r2\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/snake.dir/gameplay/Snake.cpp.obj -MF CMakeFiles\snake.dir\gameplay\Snake.cpp.obj.d -o CMakeFiles\snake.dir\gameplay\Snake.cpp.obj -c E:\Classes\Game_making\PBL\snake_PBL\snake\gameplay\Snake.cpp
 
-CMakeFiles/snake.dir/src/save.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/snake.dir/src/save.cpp.i"
-	"D:\Program Files\winlibs-x86_64-posix-seh-gcc-14.2.0-mingw-w64ucrt-12.0.0-r2\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Classes\Game_making\PBL\snake\src\save.cpp > CMakeFiles\snake.dir\src\save.cpp.i
+CMakeFiles/snake.dir/gameplay/Snake.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/snake.dir/gameplay/Snake.cpp.i"
+	"D:\Program Files\winlibs-x86_64-posix-seh-gcc-14.2.0-mingw-w64ucrt-12.0.0-r2\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Classes\Game_making\PBL\snake_PBL\snake\gameplay\Snake.cpp > CMakeFiles\snake.dir\gameplay\Snake.cpp.i
 
-CMakeFiles/snake.dir/src/save.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/snake.dir/src/save.cpp.s"
-	"D:\Program Files\winlibs-x86_64-posix-seh-gcc-14.2.0-mingw-w64ucrt-12.0.0-r2\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Classes\Game_making\PBL\snake\src\save.cpp -o CMakeFiles\snake.dir\src\save.cpp.s
+CMakeFiles/snake.dir/gameplay/Snake.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/snake.dir/gameplay/Snake.cpp.s"
+	"D:\Program Files\winlibs-x86_64-posix-seh-gcc-14.2.0-mingw-w64ucrt-12.0.0-r2\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Classes\Game_making\PBL\snake_PBL\snake\gameplay\Snake.cpp -o CMakeFiles\snake.dir\gameplay\Snake.cpp.s
+
+CMakeFiles/snake.dir/gameplay/Food.cpp.obj: CMakeFiles/snake.dir/flags.make
+CMakeFiles/snake.dir/gameplay/Food.cpp.obj: CMakeFiles/snake.dir/includes_CXX.rsp
+CMakeFiles/snake.dir/gameplay/Food.cpp.obj: E:/Classes/Game_making/PBL/snake_PBL/snake/gameplay/Food.cpp
+CMakeFiles/snake.dir/gameplay/Food.cpp.obj: CMakeFiles/snake.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Classes\Game_making\PBL\snake_PBL\snake\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/snake.dir/gameplay/Food.cpp.obj"
+	"D:\Program Files\winlibs-x86_64-posix-seh-gcc-14.2.0-mingw-w64ucrt-12.0.0-r2\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/snake.dir/gameplay/Food.cpp.obj -MF CMakeFiles\snake.dir\gameplay\Food.cpp.obj.d -o CMakeFiles\snake.dir\gameplay\Food.cpp.obj -c E:\Classes\Game_making\PBL\snake_PBL\snake\gameplay\Food.cpp
+
+CMakeFiles/snake.dir/gameplay/Food.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/snake.dir/gameplay/Food.cpp.i"
+	"D:\Program Files\winlibs-x86_64-posix-seh-gcc-14.2.0-mingw-w64ucrt-12.0.0-r2\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Classes\Game_making\PBL\snake_PBL\snake\gameplay\Food.cpp > CMakeFiles\snake.dir\gameplay\Food.cpp.i
+
+CMakeFiles/snake.dir/gameplay/Food.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/snake.dir/gameplay/Food.cpp.s"
+	"D:\Program Files\winlibs-x86_64-posix-seh-gcc-14.2.0-mingw-w64ucrt-12.0.0-r2\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Classes\Game_making\PBL\snake_PBL\snake\gameplay\Food.cpp -o CMakeFiles\snake.dir\gameplay\Food.cpp.s
+
+CMakeFiles/snake.dir/persistence/SaveSystem.cpp.obj: CMakeFiles/snake.dir/flags.make
+CMakeFiles/snake.dir/persistence/SaveSystem.cpp.obj: CMakeFiles/snake.dir/includes_CXX.rsp
+CMakeFiles/snake.dir/persistence/SaveSystem.cpp.obj: E:/Classes/Game_making/PBL/snake_PBL/snake/persistence/SaveSystem.cpp
+CMakeFiles/snake.dir/persistence/SaveSystem.cpp.obj: CMakeFiles/snake.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Classes\Game_making\PBL\snake_PBL\snake\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/snake.dir/persistence/SaveSystem.cpp.obj"
+	"D:\Program Files\winlibs-x86_64-posix-seh-gcc-14.2.0-mingw-w64ucrt-12.0.0-r2\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/snake.dir/persistence/SaveSystem.cpp.obj -MF CMakeFiles\snake.dir\persistence\SaveSystem.cpp.obj.d -o CMakeFiles\snake.dir\persistence\SaveSystem.cpp.obj -c E:\Classes\Game_making\PBL\snake_PBL\snake\persistence\SaveSystem.cpp
+
+CMakeFiles/snake.dir/persistence/SaveSystem.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/snake.dir/persistence/SaveSystem.cpp.i"
+	"D:\Program Files\winlibs-x86_64-posix-seh-gcc-14.2.0-mingw-w64ucrt-12.0.0-r2\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Classes\Game_making\PBL\snake_PBL\snake\persistence\SaveSystem.cpp > CMakeFiles\snake.dir\persistence\SaveSystem.cpp.i
+
+CMakeFiles/snake.dir/persistence/SaveSystem.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/snake.dir/persistence/SaveSystem.cpp.s"
+	"D:\Program Files\winlibs-x86_64-posix-seh-gcc-14.2.0-mingw-w64ucrt-12.0.0-r2\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Classes\Game_making\PBL\snake_PBL\snake\persistence\SaveSystem.cpp -o CMakeFiles\snake.dir\persistence\SaveSystem.cpp.s
 
 # Object files for target snake
 snake_OBJECTS = \
-"CMakeFiles/snake.dir/src/main.cpp.obj" \
-"CMakeFiles/snake.dir/src/initial.cpp.obj" \
-"CMakeFiles/snake.dir/src/draw.cpp.obj" \
-"CMakeFiles/snake.dir/src/draw2.cpp.obj" \
-"CMakeFiles/snake.dir/src/input.cpp.obj" \
-"CMakeFiles/snake.dir/src/logic.cpp.obj" \
-"CMakeFiles/snake.dir/src/save.cpp.obj"
+"CMakeFiles/snake.dir/main.cpp.obj" \
+"CMakeFiles/snake.dir/core/GameLoop.cpp.obj" \
+"CMakeFiles/snake.dir/core/StateMachine.cpp.obj" \
+"CMakeFiles/snake.dir/systems/InputSystem.cpp.obj" \
+"CMakeFiles/snake.dir/systems/RenderSystem.cpp.obj" \
+"CMakeFiles/snake.dir/systems/TimeSystem.cpp.obj" \
+"CMakeFiles/snake.dir/gameplay/Snake.cpp.obj" \
+"CMakeFiles/snake.dir/gameplay/Food.cpp.obj" \
+"CMakeFiles/snake.dir/persistence/SaveSystem.cpp.obj"
 
 # External object files for target snake
 snake_EXTERNAL_OBJECTS =
 
-snake.exe: CMakeFiles/snake.dir/src/main.cpp.obj
-snake.exe: CMakeFiles/snake.dir/src/initial.cpp.obj
-snake.exe: CMakeFiles/snake.dir/src/draw.cpp.obj
-snake.exe: CMakeFiles/snake.dir/src/draw2.cpp.obj
-snake.exe: CMakeFiles/snake.dir/src/input.cpp.obj
-snake.exe: CMakeFiles/snake.dir/src/logic.cpp.obj
-snake.exe: CMakeFiles/snake.dir/src/save.cpp.obj
+snake.exe: CMakeFiles/snake.dir/main.cpp.obj
+snake.exe: CMakeFiles/snake.dir/core/GameLoop.cpp.obj
+snake.exe: CMakeFiles/snake.dir/core/StateMachine.cpp.obj
+snake.exe: CMakeFiles/snake.dir/systems/InputSystem.cpp.obj
+snake.exe: CMakeFiles/snake.dir/systems/RenderSystem.cpp.obj
+snake.exe: CMakeFiles/snake.dir/systems/TimeSystem.cpp.obj
+snake.exe: CMakeFiles/snake.dir/gameplay/Snake.cpp.obj
+snake.exe: CMakeFiles/snake.dir/gameplay/Food.cpp.obj
+snake.exe: CMakeFiles/snake.dir/persistence/SaveSystem.cpp.obj
 snake.exe: CMakeFiles/snake.dir/build.make
 snake.exe: CMakeFiles/snake.dir/linkLibs.rsp
 snake.exe: CMakeFiles/snake.dir/objects1.rsp
 snake.exe: CMakeFiles/snake.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=E:\Classes\Game_making\PBL\snake\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable snake.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=E:\Classes\Game_making\PBL\snake_PBL\snake\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable snake.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\snake.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -209,6 +243,6 @@ CMakeFiles/snake.dir/clean:
 .PHONY : CMakeFiles/snake.dir/clean
 
 CMakeFiles/snake.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" E:\Classes\Game_making\PBL\snake E:\Classes\Game_making\PBL\snake E:\Classes\Game_making\PBL\snake\build E:\Classes\Game_making\PBL\snake\build E:\Classes\Game_making\PBL\snake\build\CMakeFiles\snake.dir\DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" E:\Classes\Game_making\PBL\snake_PBL\snake E:\Classes\Game_making\PBL\snake_PBL\snake E:\Classes\Game_making\PBL\snake_PBL\snake\build E:\Classes\Game_making\PBL\snake_PBL\snake\build E:\Classes\Game_making\PBL\snake_PBL\snake\build\CMakeFiles\snake.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/snake.dir/depend
 

@@ -8,13 +8,15 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "E:/Classes/Game_making/PBL/snake/src/draw.cpp" "CMakeFiles/snake.dir/src/draw.cpp.obj" "gcc" "CMakeFiles/snake.dir/src/draw.cpp.obj.d"
-  "E:/Classes/Game_making/PBL/snake/src/draw2.cpp" "CMakeFiles/snake.dir/src/draw2.cpp.obj" "gcc" "CMakeFiles/snake.dir/src/draw2.cpp.obj.d"
-  "E:/Classes/Game_making/PBL/snake/src/initial.cpp" "CMakeFiles/snake.dir/src/initial.cpp.obj" "gcc" "CMakeFiles/snake.dir/src/initial.cpp.obj.d"
-  "E:/Classes/Game_making/PBL/snake/src/input.cpp" "CMakeFiles/snake.dir/src/input.cpp.obj" "gcc" "CMakeFiles/snake.dir/src/input.cpp.obj.d"
-  "E:/Classes/Game_making/PBL/snake/src/logic.cpp" "CMakeFiles/snake.dir/src/logic.cpp.obj" "gcc" "CMakeFiles/snake.dir/src/logic.cpp.obj.d"
-  "E:/Classes/Game_making/PBL/snake/src/main.cpp" "CMakeFiles/snake.dir/src/main.cpp.obj" "gcc" "CMakeFiles/snake.dir/src/main.cpp.obj.d"
-  "E:/Classes/Game_making/PBL/snake/src/save.cpp" "CMakeFiles/snake.dir/src/save.cpp.obj" "gcc" "CMakeFiles/snake.dir/src/save.cpp.obj.d"
+  "E:/Classes/Game_making/PBL/snake_PBL/snake/core/GameLoop.cpp" "CMakeFiles/snake.dir/core/GameLoop.cpp.obj" "gcc" "CMakeFiles/snake.dir/core/GameLoop.cpp.obj.d"
+  "E:/Classes/Game_making/PBL/snake_PBL/snake/core/StateMachine.cpp" "CMakeFiles/snake.dir/core/StateMachine.cpp.obj" "gcc" "CMakeFiles/snake.dir/core/StateMachine.cpp.obj.d"
+  "E:/Classes/Game_making/PBL/snake_PBL/snake/gameplay/Food.cpp" "CMakeFiles/snake.dir/gameplay/Food.cpp.obj" "gcc" "CMakeFiles/snake.dir/gameplay/Food.cpp.obj.d"
+  "E:/Classes/Game_making/PBL/snake_PBL/snake/gameplay/Snake.cpp" "CMakeFiles/snake.dir/gameplay/Snake.cpp.obj" "gcc" "CMakeFiles/snake.dir/gameplay/Snake.cpp.obj.d"
+  "E:/Classes/Game_making/PBL/snake_PBL/snake/main.cpp" "CMakeFiles/snake.dir/main.cpp.obj" "gcc" "CMakeFiles/snake.dir/main.cpp.obj.d"
+  "E:/Classes/Game_making/PBL/snake_PBL/snake/persistence/SaveSystem.cpp" "CMakeFiles/snake.dir/persistence/SaveSystem.cpp.obj" "gcc" "CMakeFiles/snake.dir/persistence/SaveSystem.cpp.obj.d"
+  "E:/Classes/Game_making/PBL/snake_PBL/snake/systems/InputSystem.cpp" "CMakeFiles/snake.dir/systems/InputSystem.cpp.obj" "gcc" "CMakeFiles/snake.dir/systems/InputSystem.cpp.obj.d"
+  "E:/Classes/Game_making/PBL/snake_PBL/snake/systems/RenderSystem.cpp" "CMakeFiles/snake.dir/systems/RenderSystem.cpp.obj" "gcc" "CMakeFiles/snake.dir/systems/RenderSystem.cpp.obj.d"
+  "E:/Classes/Game_making/PBL/snake_PBL/snake/systems/TimeSystem.cpp" "CMakeFiles/snake.dir/systems/TimeSystem.cpp.obj" "gcc" "CMakeFiles/snake.dir/systems/TimeSystem.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

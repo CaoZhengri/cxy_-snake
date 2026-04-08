@@ -1,12 +1,12 @@
 #include "data.h"
-#include <cstdlib>
+// 蛇逻辑模块：负责蛇移动、碰撞检测、吃食物增长和尾部清理。
 
 void ClearTail()
 {
-    Node* cur = tailHead;
+    Node *cur = tailHead;
     while (cur != nullptr)
     {
-        Node* next = cur->next;
+        Node *next = cur->next;
         delete cur;
         cur = next;
     }
@@ -43,10 +43,10 @@ void Logic()
         return;
     }
 
-    Node* moveNode = tailEnd;
+    Node *moveNode = tailEnd;
     while (moveNode != nullptr)
     {
-        Node* followNode = moveNode->prev;
+        Node *followNode = moveNode->prev;
         moveNode->x = (followNode == nullptr) ? oldHeadX : followNode->x;
         moveNode->y = (followNode == nullptr) ? oldHeadY : followNode->y;
         moveNode = followNode;
@@ -55,10 +55,9 @@ void Logic()
     if (headX == fruitX && headY == fruitY)
     {
         mScore += 10;
-        fruitX = rand() % (mWidth - 2) + 1;
-        fruitY = rand() % (mHeight - 2) + 1;
+        SpawnFood();
 
-        Node* newNode = new Node;
+        Node *newNode = new Node;
         newNode->x = oldHeadX;
         newNode->y = oldHeadY;
         newNode->next = tailHead;
@@ -74,7 +73,7 @@ void Logic()
         }
     }
 
-    for (Node* p = tailHead; p != nullptr; p = p->next)
+    for (Node *p = tailHead; p != nullptr; p = p->next)
     {
         if (p->x == headX && p->y == headY)
         {

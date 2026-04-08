@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "snake::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-snake-Debug-f9a89e284a0bde1525c3.json",
+					"jsonFile" : "target-snake-Debug-b47ae1baf33b65731735.json",
 					"name" : "snake",
 					"projectIndex" : 0
 				}
@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "E:/Classes/Game_making/PBL/snake/build",
-		"source" : "E:/Classes/Game_making/PBL/snake"
+		"build" : "E:/Classes/Game_making/PBL/snake_PBL/snake/build",
+		"source" : "E:/Classes/Game_making/PBL/snake_PBL/snake"
 	},
 	"version" : 
 	{

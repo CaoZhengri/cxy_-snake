@@ -35,7 +35,7 @@
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 24,
+				"line" : 26,
 				"parent" : 0
 			},
 			{
@@ -71,7 +71,7 @@
 			[
 				{
 					"backtrace" : 3,
-					"path" : "E:/Classes/Game_making/PBL/snake/include"
+					"path" : "E:/Classes/Game_making/PBL/snake_PBL/snake/include"
 				}
 			],
 			"language" : "CXX",
@@ -91,7 +91,9 @@
 				3,
 				4,
 				5,
-				6
+				6,
+				7,
+				8
 			]
 		}
 	],
@@ -134,7 +136,9 @@
 				3,
 				4,
 				5,
-				6
+				6,
+				7,
+				8
 			]
 		}
 	],
@@ -143,43 +147,55 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "src/main.cpp",
+			"path" : "main.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "src/initial.cpp",
+			"path" : "core/GameLoop.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "src/draw.cpp",
+			"path" : "core/StateMachine.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "src/draw2.cpp",
+			"path" : "systems/InputSystem.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "src/input.cpp",
+			"path" : "systems/RenderSystem.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "src/logic.cpp",
+			"path" : "systems/TimeSystem.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "src/save.cpp",
+			"path" : "gameplay/Snake.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "gameplay/Food.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "persistence/SaveSystem.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

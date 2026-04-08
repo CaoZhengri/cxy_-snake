@@ -1,3 +1,3 @@
-E:/Classes/Game_making/PBL/snake/build/CMakeFiles/snake.dir
-E:/Classes/Game_making/PBL/snake/build/CMakeFiles/edit_cache.dir
-E:/Classes/Game_making/PBL/snake/build/CMakeFiles/rebuild_cache.dir
+E:/Classes/Game_making/PBL/snake_PBL/snake/build/CMakeFiles/snake.dir
+E:/Classes/Game_making/PBL/snake_PBL/snake/build/CMakeFiles/edit_cache.dir
+E:/Classes/Game_making/PBL/snake_PBL/snake/build/CMakeFiles/rebuild_cache.dir

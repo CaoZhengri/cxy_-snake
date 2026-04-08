@@ -1,6 +1,6 @@
 CMakeFiles/snake.dir/src/input.cpp.obj: \
- E:\Classes\Game_making\PBL\snake\src\input.cpp \
- E:/Classes/Game_making/PBL/snake/include/data.h \
+ E:\Classes\Game_making\PBL\snake_PBL\snake\src\input.cpp \
+ E:/Classes/Game_making/PBL/snake_PBL/snake/include/data.h \
  D:/Program\ Files/winlibs-x86_64-posix-seh-gcc-14.2.0-mingw-w64ucrt-12.0.0-r2/mingw64/x86_64-w64-mingw32/include/windows.h \
  D:/Program\ Files/winlibs-x86_64-posix-seh-gcc-14.2.0-mingw-w64ucrt-12.0.0-r2/mingw64/x86_64-w64-mingw32/include/_mingw.h \
  D:/Program\ Files/winlibs-x86_64-posix-seh-gcc-14.2.0-mingw-w64ucrt-12.0.0-r2/mingw64/x86_64-w64-mingw32/include/_mingw_mac.h \

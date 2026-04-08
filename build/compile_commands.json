@@ -1,44 +1,56 @@
 [
 {
-  "directory": "E:/Classes/Game_making/PBL/snake/build",
-  "command": "\"D:\\Program Files\\winlibs-x86_64-posix-seh-gcc-14.2.0-mingw-w64ucrt-12.0.0-r2\\mingw64\\bin\\g++.exe\"  @CMakeFiles/snake.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -Wpedantic -o CMakeFiles\\snake.dir\\src\\main.cpp.obj -c E:\\Classes\\Game_making\\PBL\\snake\\src\\main.cpp",
-  "file": "E:/Classes/Game_making/PBL/snake/src/main.cpp",
-  "output": "CMakeFiles/snake.dir/src/main.cpp.obj"
+  "directory": "E:/Classes/Game_making/PBL/snake_PBL/snake/build",
+  "command": "\"D:\\Program Files\\winlibs-x86_64-posix-seh-gcc-14.2.0-mingw-w64ucrt-12.0.0-r2\\mingw64\\bin\\g++.exe\"  @CMakeFiles/snake.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -Wpedantic -o CMakeFiles\\snake.dir\\main.cpp.obj -c E:\\Classes\\Game_making\\PBL\\snake_PBL\\snake\\main.cpp",
+  "file": "E:/Classes/Game_making/PBL/snake_PBL/snake/main.cpp",
+  "output": "CMakeFiles/snake.dir/main.cpp.obj"
 },
 {
-  "directory": "E:/Classes/Game_making/PBL/snake/build",
-  "command": "\"D:\\Program Files\\winlibs-x86_64-posix-seh-gcc-14.2.0-mingw-w64ucrt-12.0.0-r2\\mingw64\\bin\\g++.exe\"  @CMakeFiles/snake.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -Wpedantic -o CMakeFiles\\snake.dir\\src\\initial.cpp.obj -c E:\\Classes\\Game_making\\PBL\\snake\\src\\initial.cpp",
-  "file": "E:/Classes/Game_making/PBL/snake/src/initial.cpp",
-  "output": "CMakeFiles/snake.dir/src/initial.cpp.obj"
+  "directory": "E:/Classes/Game_making/PBL/snake_PBL/snake/build",
+  "command": "\"D:\\Program Files\\winlibs-x86_64-posix-seh-gcc-14.2.0-mingw-w64ucrt-12.0.0-r2\\mingw64\\bin\\g++.exe\"  @CMakeFiles/snake.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -Wpedantic -o CMakeFiles\\snake.dir\\core\\GameLoop.cpp.obj -c E:\\Classes\\Game_making\\PBL\\snake_PBL\\snake\\core\\GameLoop.cpp",
+  "file": "E:/Classes/Game_making/PBL/snake_PBL/snake/core/GameLoop.cpp",
+  "output": "CMakeFiles/snake.dir/core/GameLoop.cpp.obj"
 },
 {
-  "directory": "E:/Classes/Game_making/PBL/snake/build",
-  "command": "\"D:\\Program Files\\winlibs-x86_64-posix-seh-gcc-14.2.0-mingw-w64ucrt-12.0.0-r2\\mingw64\\bin\\g++.exe\"  @CMakeFiles/snake.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -Wpedantic -o CMakeFiles\\snake.dir\\src\\draw.cpp.obj -c E:\\Classes\\Game_making\\PBL\\snake\\src\\draw.cpp",
-  "file": "E:/Classes/Game_making/PBL/snake/src/draw.cpp",
-  "output": "CMakeFiles/snake.dir/src/draw.cpp.obj"
+  "directory": "E:/Classes/Game_making/PBL/snake_PBL/snake/build",
+  "command": "\"D:\\Program Files\\winlibs-x86_64-posix-seh-gcc-14.2.0-mingw-w64ucrt-12.0.0-r2\\mingw64\\bin\\g++.exe\"  @CMakeFiles/snake.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -Wpedantic -o CMakeFiles\\snake.dir\\core\\StateMachine.cpp.obj -c E:\\Classes\\Game_making\\PBL\\snake_PBL\\snake\\core\\StateMachine.cpp",
+  "file": "E:/Classes/Game_making/PBL/snake_PBL/snake/core/StateMachine.cpp",
+  "output": "CMakeFiles/snake.dir/core/StateMachine.cpp.obj"
 },
 {
-  "directory": "E:/Classes/Game_making/PBL/snake/build",
-  "command": "\"D:\\Program Files\\winlibs-x86_64-posix-seh-gcc-14.2.0-mingw-w64ucrt-12.0.0-r2\\mingw64\\bin\\g++.exe\"  @CMakeFiles/snake.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -Wpedantic -o CMakeFiles\\snake.dir\\src\\draw2.cpp.obj -c E:\\Classes\\Game_making\\PBL\\snake\\src\\draw2.cpp",
-  "file": "E:/Classes/Game_making/PBL/snake/src/draw2.cpp",
-  "output": "CMakeFiles/snake.dir/src/draw2.cpp.obj"
+  "directory": "E:/Classes/Game_making/PBL/snake_PBL/snake/build",
+  "command": "\"D:\\Program Files\\winlibs-x86_64-posix-seh-gcc-14.2.0-mingw-w64ucrt-12.0.0-r2\\mingw64\\bin\\g++.exe\"  @CMakeFiles/snake.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -Wpedantic -o CMakeFiles\\snake.dir\\systems\\InputSystem.cpp.obj -c E:\\Classes\\Game_making\\PBL\\snake_PBL\\snake\\systems\\InputSystem.cpp",
+  "file": "E:/Classes/Game_making/PBL/snake_PBL/snake/systems/InputSystem.cpp",
+  "output": "CMakeFiles/snake.dir/systems/InputSystem.cpp.obj"
 },
 {
-  "directory": "E:/Classes/Game_making/PBL/snake/build",
-  "command": "\"D:\\Program Files\\winlibs-x86_64-posix-seh-gcc-14.2.0-mingw-w64ucrt-12.0.0-r2\\mingw64\\bin\\g++.exe\"  @CMakeFiles/snake.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -Wpedantic -o CMakeFiles\\snake.dir\\src\\input.cpp.obj -c E:\\Classes\\Game_making\\PBL\\snake\\src\\input.cpp",
-  "file": "E:/Classes/Game_making/PBL/snake/src/input.cpp",
-  "output": "CMakeFiles/snake.dir/src/input.cpp.obj"
+  "directory": "E:/Classes/Game_making/PBL/snake_PBL/snake/build",
+  "command": "\"D:\\Program Files\\winlibs-x86_64-posix-seh-gcc-14.2.0-mingw-w64ucrt-12.0.0-r2\\mingw64\\bin\\g++.exe\"  @CMakeFiles/snake.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -Wpedantic -o CMakeFiles\\snake.dir\\systems\\RenderSystem.cpp.obj -c E:\\Classes\\Game_making\\PBL\\snake_PBL\\snake\\systems\\RenderSystem.cpp",
+  "file": "E:/Classes/Game_making/PBL/snake_PBL/snake/systems/RenderSystem.cpp",
+  "output": "CMakeFiles/snake.dir/systems/RenderSystem.cpp.obj"
 },
 {
-  "directory": "E:/Classes/Game_making/PBL/snake/build",
-  "command": "\"D:\\Program Files\\winlibs-x86_64-posix-seh-gcc-14.2.0-mingw-w64ucrt-12.0.0-r2\\mingw64\\bin\\g++.exe\"  @CMakeFiles/snake.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -Wpedantic -o CMakeFiles\\snake.dir\\src\\logic.cpp.obj -c E:\\Classes\\Game_making\\PBL\\snake\\src\\logic.cpp",
-  "file": "E:/Classes/Game_making/PBL/snake/src/logic.cpp",
-  "output": "CMakeFiles/snake.dir/src/logic.cpp.obj"
+  "directory": "E:/Classes/Game_making/PBL/snake_PBL/snake/build",
+  "command": "\"D:\\Program Files\\winlibs-x86_64-posix-seh-gcc-14.2.0-mingw-w64ucrt-12.0.0-r2\\mingw64\\bin\\g++.exe\"  @CMakeFiles/snake.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -Wpedantic -o CMakeFiles\\snake.dir\\systems\\TimeSystem.cpp.obj -c E:\\Classes\\Game_making\\PBL\\snake_PBL\\snake\\systems\\TimeSystem.cpp",
+  "file": "E:/Classes/Game_making/PBL/snake_PBL/snake/systems/TimeSystem.cpp",
+  "output": "CMakeFiles/snake.dir/systems/TimeSystem.cpp.obj"
 },
 {
-  "directory": "E:/Classes/Game_making/PBL/snake/build",
-  "command": "\"D:\\Program Files\\winlibs-x86_64-posix-seh-gcc-14.2.0-mingw-w64ucrt-12.0.0-r2\\mingw64\\bin\\g++.exe\"  @CMakeFiles/snake.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -Wpedantic -o CMakeFiles\\snake.dir\\src\\save.cpp.obj -c E:\\Classes\\Game_making\\PBL\\snake\\src\\save.cpp",
-  "file": "E:/Classes/Game_making/PBL/snake/src/save.cpp",
-  "output": "CMakeFiles/snake.dir/src/save.cpp.obj"
+  "directory": "E:/Classes/Game_making/PBL/snake_PBL/snake/build",
+  "command": "\"D:\\Program Files\\winlibs-x86_64-posix-seh-gcc-14.2.0-mingw-w64ucrt-12.0.0-r2\\mingw64\\bin\\g++.exe\"  @CMakeFiles/snake.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -Wpedantic -o CMakeFiles\\snake.dir\\gameplay\\Snake.cpp.obj -c E:\\Classes\\Game_making\\PBL\\snake_PBL\\snake\\gameplay\\Snake.cpp",
+  "file": "E:/Classes/Game_making/PBL/snake_PBL/snake/gameplay/Snake.cpp",
+  "output": "CMakeFiles/snake.dir/gameplay/Snake.cpp.obj"
+},
+{
+  "directory": "E:/Classes/Game_making/PBL/snake_PBL/snake/build",
+  "command": "\"D:\\Program Files\\winlibs-x86_64-posix-seh-gcc-14.2.0-mingw-w64ucrt-12.0.0-r2\\mingw64\\bin\\g++.exe\"  @CMakeFiles/snake.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -Wpedantic -o CMakeFiles\\snake.dir\\gameplay\\Food.cpp.obj -c E:\\Classes\\Game_making\\PBL\\snake_PBL\\snake\\gameplay\\Food.cpp",
+  "file": "E:/Classes/Game_making/PBL/snake_PBL/snake/gameplay/Food.cpp",
+  "output": "CMakeFiles/snake.dir/gameplay/Food.cpp.obj"
+},
+{
+  "directory": "E:/Classes/Game_making/PBL/snake_PBL/snake/build",
+  "command": "\"D:\\Program Files\\winlibs-x86_64-posix-seh-gcc-14.2.0-mingw-w64ucrt-12.0.0-r2\\mingw64\\bin\\g++.exe\"  @CMakeFiles/snake.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -Wpedantic -o CMakeFiles\\snake.dir\\persistence\\SaveSystem.cpp.obj -c E:\\Classes\\Game_making\\PBL\\snake_PBL\\snake\\persistence\\SaveSystem.cpp",
+  "file": "E:/Classes/Game_making/PBL/snake_PBL/snake/persistence/SaveSystem.cpp",
+  "output": "CMakeFiles/snake.dir/persistence/SaveSystem.cpp.obj"
 }
 ]

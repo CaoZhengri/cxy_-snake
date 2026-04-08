@@ -110,8 +110,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "E:/Classes/Game_making/PBL/snake/build",
-		"source" : "E:/Classes/Game_making/PBL/snake"
+		"build" : "E:/Classes/Game_making/PBL/snake_PBL/snake/build",
+		"source" : "E:/Classes/Game_making/PBL/snake_PBL/snake"
 	},
 	"version" : 
 	{

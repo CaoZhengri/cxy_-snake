@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "e:/Classes/Game_making/PBL/snake/build"
+			"value" : "e:/Classes/Game_making/PBL/snake_PBL/snake/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -443,7 +443,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "E:/Classes/Game_making/PBL/snake/build/CMakeFiles/pkgRedirects"
+			"value" : "E:/Classes/Game_making/PBL/snake_PBL/snake/build/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -515,7 +515,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "E:/Classes/Game_making/PBL/snake"
+			"value" : "E:/Classes/Game_making/PBL/snake_PBL/snake"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1223,7 +1223,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "E:/Classes/Game_making/PBL/snake/build"
+			"value" : "E:/Classes/Game_making/PBL/snake_PBL/snake/build"
 		},
 		{
 			"name" : "snake_IS_TOP_LEVEL",
@@ -1247,7 +1247,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "E:/Classes/Game_making/PBL/snake"
+			"value" : "E:/Classes/Game_making/PBL/snake_PBL/snake"
 		}
 	],
 	"kind" : "cache",

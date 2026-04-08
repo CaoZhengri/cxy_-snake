@@ -9,13 +9,15 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 include_directories(include)
 
 add_executable(snake
-    src/main.cpp
-    src/initial.cpp
-    src/draw.cpp
-    src/draw2.cpp
-    src/input.cpp
-    src/logic.cpp
-    src/save.cpp
+    main.cpp
+    core/GameLoop.cpp
+    core/StateMachine.cpp
+    systems/InputSystem.cpp
+    systems/RenderSystem.cpp
+    systems/TimeSystem.cpp
+    gameplay/Snake.cpp
+    gameplay/Food.cpp
+    persistence/SaveSystem.cpp
 )
 
 if(MSVC)

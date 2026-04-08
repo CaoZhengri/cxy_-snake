@@ -1,6 +1,85 @@
 #include "data.h"
+// 渲染系统模块：负责控制台绘制、双缓冲显示和分数输出。
 #include <cwchar>
+#include <iostream>
 #include <windows.h>
+
+using namespace std;
+
+static const wchar_t *GetDifficultyName()
+{
+    switch (speedLevel)
+    {
+    case SPEED_MEDIUM:
+        return L"中级";
+    case SPEED_HIGH:
+        return L"高级";
+    case SPEED_LOW:
+    default:
+        return L"初级";
+    }
+}
+
+void Draw()
+{
+    system("cls");
+    HANDLE h = GetStdHandle(STD_OUTPUT_HANDLE);
+
+    for (int i = 0; i < mWidth; i++)
+    {
+        SetConsoleTextAttribute(h, 0x86);
+        cout << "#";
+    }
+    cout << endl;
+
+    for (int i = 0; i < mHeight; i++)
+    {
+        for (int j = 0; j < mWidth; j++)
+        {
+            if (j == 0 || j == mWidth - 1)
+            {
+                SetConsoleTextAttribute(h, 0x86);
+                cout << "#";
+            }
+            else if (i == headY && j == headX)
+            {
+                SetConsoleTextAttribute(h, 0x8a);
+                cout << "O";
+            }
+            else if (i == fruitY && j == fruitX)
+            {
+                SetConsoleTextAttribute(h, 0x84);
+                cout << "F";
+            }
+            else
+            {
+                bool drawn = false;
+                for (Node *p = tailHead; p != nullptr; p = p->next)
+                {
+                    if (p->x == j && p->y == i)
+                    {
+                        cout << "o";
+                        drawn = true;
+                        break;
+                    }
+                }
+                if (!drawn)
+                {
+                    cout << " ";
+                }
+            }
+        }
+        cout << endl;
+    }
+
+    for (int i = 0; i < mWidth; i++)
+    {
+        SetConsoleTextAttribute(h, 0x86);
+        cout << "#";
+    }
+    cout << endl;
+    cout << "分数:" << mScore << endl;
+}
 
 void Draw2()
 {
@@ -28,7 +107,7 @@ void Draw2()
             else
             {
                 bool drawn = false;
-                for (Node* p = tailHead; p != nullptr; p = p->next)
+                for (Node *p = tailHead; p != nullptr; p = p->next)
                 {
                     if (p->x == j && p->y == i)
                     {
@@ -50,6 +129,7 @@ void Draw2()
     {
         ScreenData[mHeight + 1][j] = '#';
         ScreenData[mHeight + 2][j] = ' ';
+        ScreenData[mHeight + 3][j] = ' ';
     }
 }
 
@@ -58,10 +138,11 @@ void Show_Double_Buffer()
     HANDLE hBuf;
     WORD textColor;
     wchar_t scoreLine[64];
+    wchar_t difficultyLine[64];
 
     Draw2();
 
-    if (BufferSwapFlag == false)
+    if (!BufferSwapFlag)
     {
         BufferSwapFlag = true;
         hBuf = hOutBuf;
@@ -106,6 +187,12 @@ void Show_Double_Buffer()
     coord.Y = static_cast<SHORT>(mHeight + 2);
     WriteConsoleOutputCharacterW(hBuf, L"                                                  ", mWidth, coord, &bytes);
     WriteConsoleOutputCharacterW(hBuf, scoreLine, static_cast<DWORD>(wcslen(scoreLine)), coord, &bytes);
+
+    swprintf(difficultyLine, 64, L"当前难度:%ls", GetDifficultyName());
+    coord.X = 0;
+    coord.Y = static_cast<SHORT>(mHeight + 3);
+    WriteConsoleOutputCharacterW(hBuf, L"                                                  ", mWidth, coord, &bytes);
+    WriteConsoleOutputCharacterW(hBuf, difficultyLine, static_cast<DWORD>(wcslen(difficultyLine)), coord, &bytes);
 
     SetConsoleActiveScreenBuffer(hBuf);
 }

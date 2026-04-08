@@ -25,7 +25,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "D:/Program Files/winlibs-x86_64-posix-seh-gcc-14.2.0-mingw-w64ucrt-12.0.0-r2/mingw64/share/cmake-3.30/Modules/Platform/Windows-windres.cmake"
   "D:/Program Files/winlibs-x86_64-posix-seh-gcc-14.2.0-mingw-w64ucrt-12.0.0-r2/mingw64/share/cmake-3.30/Modules/Platform/Windows.cmake"
   "D:/Program Files/winlibs-x86_64-posix-seh-gcc-14.2.0-mingw-w64ucrt-12.0.0-r2/mingw64/share/cmake-3.30/Modules/Platform/WindowsPaths.cmake"
-  "E:/Classes/Game_making/PBL/snake/CMakeLists.txt"
+  "E:/Classes/Game_making/PBL/snake_PBL/snake/CMakeLists.txt"
   "CMakeFiles/3.30.4/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.30.4/CMakeRCCompiler.cmake"
   "CMakeFiles/3.30.4/CMakeSystem.cmake"
